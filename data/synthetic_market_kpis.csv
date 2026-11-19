@@ -1,0 +1,7 @@
+market,campaign,customers_targeted,conversions,conversion_rate,digital_adoption_rate,synthetic_disbursement_units
+Market A,Campaign Alpha,12000,1860,0.155,0.61,4200000
+Market B,Campaign Beta,9500,1425,0.15,0.54,3150000
+Market C,Campaign Gamma,15000,1650,0.11,0.68,5100000
+Market D,Campaign Delta,7800,1248,0.16,0.47,2680000
+Market E,Campaign Epsilon,11000,990,0.09,0.72,3900000
+Market F,Campaign Zeta,6300,882,0.14,0.58,2210000

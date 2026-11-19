@@ -1,0 +1,12 @@
+{
+  "project": "Campaign Benefits & Performance Analytics",
+  "public_package": "anonymized documentation and synthetic examples only",
+  "excluded": [
+    "original PBIX",
+    "original PDF",
+    "original source data",
+    "organization branding",
+    "customer-level data"
+  ],
+  "synthetic_data": true
+}

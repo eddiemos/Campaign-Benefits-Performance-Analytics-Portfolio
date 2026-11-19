@@ -1,0 +1,18 @@
+# Sensitive / source files
+*.pbix
+*.pbit
+*.xlsx
+*.xls
+*.xlsm
+*.csv.tmp
+*.bak
+*.log
+.env
+.env.*
+credentials*
+secrets*
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
