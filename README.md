@@ -48,7 +48,7 @@ The source report contains multiple report pages. The portfolio summary groups t
 | Summary and simplified views | Condensed reporting for quick review |
 | Metric glossary | Business meaning and calculation notes for reported indicators |
 
-The preview in [`screenshots/dashboard-preview.png`](screenshots/dashboard-preview.png) is a **synthetic portfolio illustration**, not a screenshot of the original report and not a reproduction of its actual results.
+The preview in [`screenshots/dashboard-preview.png`](screenshots/dashboard-preview.png) and the additional [executive overview](screenshots/executive-overview-synthetic.png), [region performance](screenshots/region-performance-synthetic.png) and [daily activity](screenshots/daily-activity-synthetic.png) illustrations are newly drawn synthetic mockups. They use generic labels and fabricated values and contain no pixels, company marks or reported figures from the source screenshots.
 
 ## KPI framework
 
@@ -84,6 +84,7 @@ The public repository uses a synthetic example dataset in [`data/synthetic_marke
 - Market labels are generic (`Market A`, `Market B`, etc.).
 - Campaign labels are generic.
 - Values are fabricated for demonstration and do not reproduce the source report.
+- Dashboard illustrations are newly drawn with synthetic data; source screenshot pixels and company branding are not included.
 - No customer-level records, personal identifiers, original organization names, original campaign IDs or source-system connection details are included.
 - The original PBIX is intentionally excluded because a Power BI file can retain underlying data, model metadata, query definitions, connection details, hidden objects and other information even when visible report labels are changed.
 
@@ -110,7 +111,10 @@ campaign-benefits-portfolio/
 ├── docs/
 │   └── business-overview.md
 └── screenshots/
-    └── dashboard-preview.png
+    ├── dashboard-preview.png
+    ├── executive-overview-synthetic.png
+    ├── region-performance-synthetic.png
+    └── daily-activity-synthetic.png
 ```
 
 ## Using the synthetic data
@@ -127,7 +131,7 @@ Suggested exercises:
 ## Limitations
 
 - This repository does not contain the original PBIX or source dataset.
-- The preview and CSV contain synthetic content.
+- The preview, additional dashboard illustrations and CSV contain synthetic content.
 - The source PDF provides report-level descriptions and selected KPI definitions, but not the complete underlying data model, all DAX expressions or Power Query scripts.
 - The case study describes dashboard capabilities; it does not establish causal campaign impact.
 
